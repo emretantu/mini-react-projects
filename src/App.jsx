@@ -1,9 +1,13 @@
 import './App.css'
+import Greeting from './components/Greeting'
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Greeting />
+      <Greeting name="Emre" />
+      <Greeting name="Jonathan" />
+      <Greeting name="Mars" />
     </>
   )
 }
