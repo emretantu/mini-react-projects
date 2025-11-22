@@ -5,7 +5,7 @@ import Dialog from './components/Dialog'
 
 function App() {
 
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [isDialogOpen, setIsDialogOpen] = useState(true);
 
   return (
     <>
@@ -14,8 +14,8 @@ function App() {
       <Greeting name="Jonathan" />
       <Greeting name="Mars" />
 
-      <button onClick={() => setIsModalOpen(true)}>Open Modal</button>
-      <Dialog open={isModalOpen} onClose={() => setIsModalOpen(false)}>
+      <button onClick={() => setIsDialogOpen(true)}>Open Modal</button>
+      <Dialog open={isDialogOpen} onClose={() => setIsDialogOpen(false)}>
         <Greeting />
         <Greeting name="John Doe" />
       </Dialog>
