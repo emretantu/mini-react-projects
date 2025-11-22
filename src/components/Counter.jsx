@@ -42,7 +42,3 @@ const Counter = () => {
 }
 
 export default Counter
-
-// strict mode
-// useState
-// useState: using callback function in set function, difference

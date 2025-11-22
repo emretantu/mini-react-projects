@@ -3,6 +3,7 @@ import './App.css'
 import Greeting from './components/Greeting'
 import Dialog from './components/Dialog'
 import Counter from './components/Counter';
+import MathQuiz from './components/MathQuiz';
 
 function App() {
 
@@ -27,6 +28,14 @@ function App() {
       <br /><br /><br />
       <h1>Counter</h1>
       <Counter />
+
+      <br /><br /><br />
+      <h1>Math Quiz</h1>
+      <MathQuiz min={1} max={10} questionCount={10}/>
+      <br />
+      <MathQuiz min={20} max={30} questionCount={20}/>
+      <br />
+      <MathQuiz min={-15} max={15} />
     </>
   )
 
