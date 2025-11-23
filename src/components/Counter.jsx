@@ -36,7 +36,7 @@ const Counter = () => {
       <button onClick={decrement}>-</button>
       <button onClick={increment}>+</button>
       <button onClick={reset}>Reset</button>
-      <button onClick={decrement40}>Increment 40</button>
+      <button onClick={decrement40}>Decrement 40</button>
     </div>
   )
 }
